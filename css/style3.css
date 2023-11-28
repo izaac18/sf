@@ -1,0 +1,211 @@
+#VProject #home {
+    background: url("../asserts/icon/pp.jpg");
+    height: 78vh;
+    background-size: cover;
+}
+.scrollBtn{
+    position: absolute;
+    width: 11vh;
+    height: 11vh;
+    bottom: 18vh;
+    left: 50vw;
+    z-index: 2;
+    background: white;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.scrollbtnimg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    animation: moveIcon 2s infinite;
+}
+
+@keyframes moveIcon {
+    0% {
+        transform: translate(0px, 0);
+
+    }
+    50% {
+        transform: translate(0px, 15px);
+    }
+
+    100% {
+        transform: translate(0px, 0);
+
+    }
+}
+
+.homeRectangle {
+    z-index: 2;
+    position: absolute;
+    height: 78vh;
+    width: 100%;
+    /*background: rgba(46, 0, 124, 0.3);*/
+    background: rgba(20, 0, 53,0.4);
+}
+
+
+.projects .project-content .card {
+    position: relative;
+}
+
+.projects .box {
+    width: 300px;
+    height: 100%;
+    background: crimson;
+    position: relative;
+    /*margin: 10px;*/
+    overflow: hidden;
+    transition: all 2s ease;
+
+}
+
+.projects .card {
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+.projects .box div {
+    overflow: hidden;
+    transition: all 2s ease;
+}
+
+.projects .box:hover {
+    overflow: hidden;
+    transform: scale(1.2);
+    transition: all 2s ease;
+
+}
+
+.projects .card h2 {
+    position: relative;
+    bottom: 2px;
+    left: 35%;
+}
+
+.projects .card .details h3 {
+    font-family: "Roboto Slab";
+    text-align: center;
+    padding: 25px;
+    font-size: 25px;
+}
+
+.projects .card:hover .details {
+    transform: scaleY(1);
+}
+
+.projects .details {
+    width: 90%;
+    height: 85%;
+    background: rgba(36, 35, 35, 0.87);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    color: white;
+    transform: scaleY(0);
+    transition: transform .5s;
+    border: #e6e6e630 20px solid;
+    overflow: hidden;
+}
+
+.projects .details_content {
+    padding: 25px;
+    align-content: center;
+    top: 50px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+
+}
+
+.projects .details_content h3 {
+    color: #ff4277;
+}
+
+.projects .details_content p {
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+.projects .details_content a {
+    color: white;
+    font-size: 15px;
+    font-family: 'Harrington';
+    text-decoration: underline;
+
+}
+
+.projects .card .box div {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    text-align: end;
+}
+
+.pro4 {
+    background: url("../asserts/icon/as1.jpg");
+}
+
+.pro5 {
+    background: url("../asserts/icon/as2.jpg");
+}
+
+.pro6 {
+    background: url("../asserts/icon/as3.jpg");
+}
+
+.pro7 {
+    background: url("../asserts/icon/as4.jpg");
+}
+
+.pro8 {
+    background: url("../asserts/icon/as5.jpg");
+}
+
+.pro9 {
+    background: url("../asserts/icon/as6.jpg");
+}
+
+.pro10 {
+    background: url("../asserts/icon/as7.jpg");
+}
+
+.pro11 {
+    background: url("../asserts/icon/as8.jpg");
+}
+
+.pro12 {
+    background: url("../asserts/icon/ass9.png");
+}
+.pro13 {
+    background: url("../asserts/icon/socket.png");
+}
+.pro14 {
+    background: url("../asserts/icon/rent4u.png");
+}
+
+
+@media (max-width: 380px) and (min-width: 320px) {
+    .projects .card .details_content h3 {
+        font-size: 18px;
+
+    }
+
+    .projects .details_content p {
+        font-size: 10px;
+    }
+}
